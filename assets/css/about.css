@@ -1,0 +1,28 @@
+@import "../css/header.css";
+
+.team-img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 0 auto; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.team-img:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+p strong {
+    font-size: 1rem;
+    color: #444;
+}

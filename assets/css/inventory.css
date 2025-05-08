@@ -1,0 +1,45 @@
+@import "../css/header.css";
+
+.header {
+    margin: 20px auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #55d6aa;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.table th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table td {
+    color: #333333;
+    font-size: 0.9rem;
+}
